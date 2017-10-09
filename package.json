@@ -1,0 +1,26 @@
+{
+  "name": "http-server",
+  "version": "0.0.1",
+  "description": "small http-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./lib/http-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanzebian/http-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanzebian/http-server/issues"
+  },
+  "homepage": "https://github.com/ryanzebian/http-server#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "install": "^0.10.1",
+    "minimist": "^1.2.0",
+    "npm": "^5.4.2"
+  }
+}
