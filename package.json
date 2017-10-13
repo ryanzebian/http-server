@@ -7,8 +7,8 @@
     "rz": "./bin/http-server"
   },
   "scripts": {
-    "start": "./bin/tiny-http-server",
-    "test": "node ./test/test",
+    "start": "./bin/tiny-http-server.js",
+    "test": "node ./test/test.js",
     "build": "webpack",
     "watch": "webpack --watch"
   },
@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/ryanzebian/http-server#readme",
   "dependencies": {
-    "minimist": "^1.2.0"
+    "async": "^2.5.0",
+    "get-port": "^3.2.0",
+    "minimist": "^1.2.0",
+    "portfinder": "^1.0.13"
   },
   "devDependencies": {
     "vows": "^0.8.1",
