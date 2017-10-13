@@ -24,9 +24,7 @@
   "homepage": "https://github.com/ryanzebian/http-server#readme",
   "dependencies": {
     "async": "^2.5.0",
-    "get-port": "^3.2.0",
-    "minimist": "^1.2.0",
-    "portfinder": "^1.0.13"
+    "minimist": "^1.2.0"
   },
   "devDependencies": {
     "vows": "^0.8.1",
