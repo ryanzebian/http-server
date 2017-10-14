@@ -7,7 +7,7 @@ module.exports = {
     // externals: [nodeExternals()],
     entry: './src/http-server-cli.js',
     output: {
-        filename: 'tiny-http-server.js',
+        filename: 'tiny-http-server',
         path: path.resolve(__dirname, 'bin'),
         libraryTarget: 'commonjs2'
     },
